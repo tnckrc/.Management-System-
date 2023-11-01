@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserBookListController">
+   <children>
+      <ListView fx:id="list" layoutX="46.0" layoutY="59.0" prefHeight="371.0" prefWidth="597.0" />
+      <Button fx:id="exit" layoutX="604.0" layoutY="20.0" mnemonicParsing="false" onAction="#exit" text="EXIT" />
+      <Label layoutX="302.0" layoutY="20.0" text="BOOKS">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

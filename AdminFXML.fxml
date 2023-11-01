@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminFXMLController">
+   <children>
+      <Label layoutX="202.0" layoutY="27.0" prefHeight="57.0" prefWidth="288.0" text="WELCOME BACK ADMIN">
+         <font>
+            <Font name="Consolas" size="28.0" />
+         </font></Label>
+      <Button layoutX="124.0" layoutY="118.0" mnemonicParsing="false" onAction="#adminToList" prefHeight="83.0" prefWidth="182.0" text="Registration List" />
+      <Button fx:id="exit" layoutX="623.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="54.0" text="EXIT" />
+      <Button fx:id="newBook" layoutX="346.0" layoutY="118.0" mnemonicParsing="false" onAction="#adminToNewBook" prefHeight="83.0" prefWidth="182.0" text="Add New Book" />
+      <Button layoutX="233.0" layoutY="258.0" mnemonicParsing="false" onAction="#adminToBookList" prefHeight="83.0" prefWidth="182.0" text="Book List" />
+   </children>
+</AnchorPane>
